@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 
-export default function Mainbody(props) {
+export default function Mainbody() {
     return (
         <>
             <div className='row'>
@@ -11,7 +11,7 @@ export default function Mainbody(props) {
                 </div>
                 </div>
                 <div className='col-sm-4'>
-                <Sidebar temp={props.temp}/>
+                <Sidebar />
                 </div>
             </div>
         </>

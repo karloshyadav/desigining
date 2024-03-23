@@ -5,7 +5,7 @@ export default function About(props) {
   return (
     <div>
       THIS IS ABOUT
-      <Sidebar temp={props.temp}/>
+      <Sidebar/>
     </div>
     
   )
